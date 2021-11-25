@@ -1,4 +1,4 @@
-def bfs(g, s):
+def dfs(g, s):
     stack = [s]
     while len(stack) > 0:
         current = stack.pop()
@@ -15,4 +15,4 @@ g1 = {'a': ['b', 'c'],
       'f': []
       }
 
-bfs(g1, 'a')
+dfs(g1, 'a')
